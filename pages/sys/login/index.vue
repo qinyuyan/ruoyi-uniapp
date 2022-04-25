@@ -174,7 +174,7 @@ export default {
 				this.$u.toast('请输入密码');
 				return;
 			}
-			uni.redirectTo({
+			uni.reLaunch({
 				url: '/pages/sys/msg/index'
 			});
 			// this.$u.api.login({
